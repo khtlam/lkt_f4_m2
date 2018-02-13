@@ -1,222 +1,243 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Course Schedule</title>
-  
-  <script src="./bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link href="./css" rel="stylesheet">
-  <link rel="stylesheet" href="./main.css">
+<html>
+<head>
+  <title>COMP4021 Internet Computing</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Exo%7CQuicksand:700" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
-<!-- Day 1 - Title  -->
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+
+<!-- Navigation Bar -->
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <h1>
+          COMP4021
+          <span class="hidden-xs">
+            Internet Computing
+            <span class="label label-info">Spring 2018</span>
+          </span>
+        </h1>
+      </a>
+      <button type="button" class="navbar-toggle hidden-print" data-toggle="collapse" data-target=".navbar-top">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-top">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="icon icon-calendar nav-icon" target="blank" href="dates17-18confirmed.pdf">Academic Calendar</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav visible-xs">
+        <li><a href="#week1">Week 1</a></li>
+        <li><a href="#week2_day1">Week 2</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="collapse navbar-collapse">
+    <div class="container-fluid navbar-inverse navbar-week">
+      <div class="navbar-text">Week:</div>
+      <ul class="nav navbar-nav">
+        <li><a href="#week1">1</a></li>
+        <li><a href="#week2_day1">2</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Week 1 -->
+
+<div id="week1" class="container-fluid container-day">
+
+  <!-- Week 1 - Title  -->
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">SEP</div><div class="day">30</div>
-        </div>
-        <a href="http://khtlam.student.ust.hk/wordpress/2017/09/30/154" target="_parent">Lesson 1</a>
-      </h2>
+      <div class="calendar">
+        <div class="month">FEB</div><div class="day">1</div>
+      </div>
+      <h2>Week 1</h2>
     </div>
   </div>
 
+  <!-- Week 1 - Items -->
 
-
-  <!-- Day 2 - Title  -->
-
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">OCT</div><div class="day">7</div>
+  <div class="row row-items">
+    <div class="col-xs-12 col-sm-6 col-md-4 pdf">
+      <div class="box">
+        <div class="title clearfix">
+          <img src="images/icons/pdf.png" alt="" class="icon pull-left gap-right">
+          <h3>Course Details</h3>
+          <span class="links">
+            [
+            <a class="icon icon-download" href="hkust/2018s_notes/01_course_details/01_4021_course_details_2018s.pdf">Colour</a>,
+            <a class="icon icon-download" href="hkust/2018s_notes/01_course_details/01_4021_course_details_2018s_bw.pdf">B&amp;W</a>
+            ] 
+          </span>
         </div>
-        <a href="http://khtlam.student.ust.hk/wordpress/2017/10/07/195" target="_parent">Lesson 2</a>
-      </h2>
-    </div>
-  </div>
-
-
-
-  <!-- Day 3 - Title  -->
-
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">OCT</div><div class="day">14</div>
-        </div>
-        <a href="http://khtlam.student.ust.hk/wordpress/2017/10/14/197" target="_parent">Lesson 3</a>
-      </h2>
-    </div>
-  </div>
-
-  <!-- Day 3 - Title  -->
-
-<div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">OCT</div><div class="day">17</div>
-        </div>
-        <a href="http://khtlam.student.ust.hk/wordpress/2017/10/17/297" target="_parent" color="Grey">Lesson 3 (Make-Up)</a>
-      </h2>
-      <ul>
-            <li>Make-Up class for Prefect Camp Participants </li>
+        <ul>
+          <li>
+            Please go
+            <a class="icon icon-link" href="https://password.cse.ust.hk:8443/pass.html">here</a>
+            to register your CSD account if you do not have one
+            (you may have to wait a day or two after joining the course before
+            doing this)
+          </li>
         </ul>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4 pdf">
+      <div class="box">
+        <div class="title clearfix">
+          <img src="images/icons/pdf.png" alt="" class="icon pull-left gap-right">
+          <h3>Introduction to the Internet</h3>
+          <span class="links">
+            [
+            <a class="icon icon-download" href="hkust/2018s_notes/02_introduction/02_4021_introduction_2018s.pdf">Colour</a>,
+            <a class="icon icon-download" href="hkust/2018s_notes/02_introduction/02_4021_introduction_2018s_bw.pdf">B&amp;W</a>
+            ]
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4 pdf">
+      <div class="box">
+        <div class="title clearfix">
+          <img src="images/icons/pdf.png" alt="" class="icon pull-left gap-right">
+          <h3>HTML</h3>
+          <span class="links">
+            [
+            <a class="icon icon-download" href="hkust/2018s_notes/03_html/03_4021_html_2018s.pdf">Colour</a>,
+            <a class="icon icon-download" href="hkust/2018s_notes/03_html/03_4021_html_2018s_bw.pdf">B&amp;W</a>
+            ] 
+          </span>
+        </div>
+        <ul>
+          <li>
+            HTML - examples
+            <a class="icon icon-link" href="hkust/2018s_notes/03_html/examples/index.html">here</a>
+          </li>
+          <li>
+            W3C HTML5 specification
+            <a class="icon icon-link" href="https://www.w3.org/TR/html5/" target="blank">here</a>
+          </li>
+          <li>
+            HTML entities
+            <a class="icon icon-link" href="https://dev.w3.org/html5/html-author/charref" target="blank">here</a>
+          </li>
+          <li>
+            W3C markup validator
+            <a class="icon icon-link" href="https://validator.w3.org/" target="blank">here</a>
+          </li>
+          <li>
+            jsFiddle
+            <a class="icon icon-link" href="https://jsfiddle.net/" target="blank">here</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4 pdf">
+      <div class="box">
+        <div class="title clearfix">
+          <img src="images/icons/pdf.png" alt="" class="icon pull-left gap-right">
+          <h3>CSS</h3>
+          <span class="links">
+            [
+            <a class="icon icon-download" href="hkust/2018s_notes/04_css/04_4021_css_2018s.pdf">Colour</a>,
+            <a class="icon icon-download" href="hkust/2018s_notes/04_css/04_4021_css_2018s_bw.pdf">B&amp;W</a>
+            ] 
+          </span>
+        </div>
+        <ul>
+          <li>
+            CSS - examples
+            <a class="icon icon-link" href="hkust/2018s_notes/04_css/examples/index.html">here</a>
+          </li>
+          <li>
+            W3C CSS properties
+            <a class="icon icon-link" href="https://www.w3.org/Style/CSS/all-properties.en.html" target="blank">here</a>
+          </li>
+          <li>
+            W3C CSS3 selectors
+            <a class="icon icon-link" href="https://www.w3.org/TR/selectors-3/" target="blank">here</a>
+          </li>
+          <li>
+            W3C CSS validator
+            <a class="icon icon-link" href="http://jigsaw.w3.org/css-validator/" target="blank">here</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
+</div>
+
+<!-- Week 2 - Day 1 -->
+
+<div id="week2_day1" class="container-fluid container-day">
+
+  <!-- Week 2 - Day 1 - Title  -->
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">OCT</div><div class="day">21</div>
-        </div>
-        <a href="http://khtlam.student.ust.hk/wordpress/2017/10/21/200" target="_parent">Lesson 4</a>
-      </h2>
+      <div class="calendar">
+        <div class="month">FEB</div><div class="day">13</div>
+      </div>
+      <h2>Week 2 - Day 1</h2>
     </div>
   </div>
 
-  <!-- Day 3 - Title  -->
+  <!-- Week 1 - Day 1 - Items -->
 
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">OCT</div><div class="day">28</div>
+  <div class="row row-items">
+    <div class="col-xs-12 col-sm-6 col-md-4 pdf">
+      <div class="box">
+        <div class="title clearfix">
+          <img src="images/icons/pdf.png" alt="" class="icon pull-left gap-right">
+          <h3>Basic JavaScript</h3>
+          <span class="links">
+            [
+            <a class="icon icon-download" href="hkust/2018s_notes/05_basic_javascript/05_4021_basic_javascript_2018s.pdf">Colour</a>,
+            <a class="icon icon-download" href="hkust/2018s_notes/05_basic_javascript/05_4021_basic_javascript_2018s_bw.pdf">B&amp;W</a>
+            ] 
+          </span>
         </div>
-        <font color="Red"> Holiday</font>
-      </h2>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">NOV</div><div class="day">4</div>
-        </div>
-        <a href="http://khtlam.student.ust.hk/wordpress/2017/11/04/202" target="_parent">Lesson 5</a>
-      </h2>
-    </div>
-  </div>
-
-   <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">NOV</div><div class="day">11</div>
-        </div>
-        <a href="http://khtlam.student.ust.hk/wordpress/2017/11/11/204" target="_parent">Lesson 6</a>
-      </h2>
-    </div>
-  </div>
-
-   <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">NOV</div><div class="day">18</div>
-        </div>
-        <a href="http://khtlam.student.ust.hk/wordpress/2017/11/18/206" target="_parent">Lesson 7</a>
-      </h2>
-    </div>
-  </div>
-
-   <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">NOV</div><div class="day">25</div>
-        </div>
-        <font color="Red"> Class Rescheduled</font>
-      </h2>
-      <ul>
-          <li>Many students are going to absence this week because of Astronomy Camp, Speech Festival, and also IU Concert :)  </li>
+        <ul>
+          <li>
+            Basic JavaScript - examples
+            <a class="icon icon-link" href="hkust/2018s_notes/05_basic_javascript/examples/index.html">here</a>
+          </li>
         </ul>
+      </div>
     </div>
-  </div>
 
-   <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">DEC</div><div class="day">2</div>
+    <div class="col-xs-12 col-sm-6 col-md-4 info">
+      <div class="box">
+        <div class="title clearfix">
+          <img src="images/icons/info.png" alt="" class="icon pull-left gap-right">
+          <h3>Information</h3>
         </div>
-        <a href="http://khtlam.student.ust.hk/wordpress/2017/12/02/215" target="_parent">Lesson 8</a>
-      </h2>
-    </div>
-  </div>
-
-   <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">DEC</div><div class="day">9</div>
-        </div>
-        <font color="Orange">Tutorial Rescheduled</font>
-        
-      </h2>
-      <ul>
-            <li>Terry is going to have examination this morning>.< </li>
-            <li>Students should also go back school for attending Miss Lam's Normal Class </li>
+        <ul>
+          <li>The first lab will take place on <mark>Wed 14 Feb</mark></li>
         </ul>
+      </div>
     </div>
   </div>
+</div>
 
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">DEC</div><div class="day">16</div>
-        </div>
-        <font color="Red"> No Class - School Open Day</font>
-      </h2>
-    </div>
-  </div>
-
-<div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">DEC</div><div class="day">20</div>
-        </div>
-        <font color="Violet"> Tutorial Quiz</font>
-      </h2>
-      <ul>
-            <li>Time: 15:45 - 16:45</li>
-            <li>Venue: TBC </li>
-        </ul>
-        </ul>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">DEC</div><div class="day">28</div>
-        </div>
-        <font color="Orange"> Lesson 9 (Make-up)</font>
-      </h2>
-      <ul>
-            <li>Time: 09:00 - 12:00</li>
-            <li>Venue: TBC </li>
-        </ul>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>
-        <div class="calendar">
-          <div class="month">DEC</div><div class="day">30</div>
-        </div>
-        <font color="Orange"> Lesson 10 (Make-Up)</font>
-      </h2>
-      <ul>
-            <li>Time: 09:00 - 11:00</li>
-            <li>Venue: TBC </li>
-        </ul>
-    </div>
-  </div>
+</body>
+</html>
