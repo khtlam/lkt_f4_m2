@@ -1,0 +1,52 @@
+@media print { 
+    body { margin-top: 0; }
+    .navbar { display: block; border-width:0 !important; }
+    a[href]:after { content: none; }
+}
+
+body { position: relative; background-color: #ddd; font-family: Exo, Arial, sans-serif; }
+
+.navbar-brand h1 { color: #000; font-size: inherit; font-weight: bold; margin: 0; }
+.navbar-week { font-size: 80%; height: 30px; }
+.navbar-week li a { line-height: 10px; padding: 10px; }
+.navbar-week .navbar-text { margin: 10px; margin-left: 0; line-height: 10px; }
+.navbar li { font-family: Arial, sans-serif; }
+
+.container-day { padding-top: 10px; }
+.container-day:first-of-type { padding-top: 80px; }
+@media (max-width: 767px) {
+    .container-day:first-of-type { padding-top: 50px; }
+}
+
+.calendar { display: block; vertical-align: middle; width: 30px; box-shadow: 2px 2px 4px #aaa; margin: 10px 10px 10px 0; font-family: Helvetica, Arial, sans-serif; font-weight: bold; float: left; }
+.calendar .month { font-size: 60%; line-height: 12px; text-align: center; color: white; background-color:red; }
+.calendar .day { font-size: 100%; line-height: 20px; text-align:center; background-color: white; }
+
+.container-day h2 { margin: 10px 0; font-size: 1.8rem; font-weight: bold; line-height: 32px; }
+.container-day .row-items { margin-left: 0; border-left: 4px solid #d84; }
+.container-day:nth-child(odd) .row-items { border-color: #bb8; }
+
+.container-day .row-items .box { padding: 10px; background-color: #fff; margin-bottom: 5px; box-shadow: 2px 2px 4px #aaa; }
+.container-day .row-items div.title { margin-bottom: 10px; }
+.container-day .row-items h3 { display: inline; font-family: Quicksand; font-size: 1.6rem; margin: 0; vertical-align: middle; }
+.container-day .row-items .pdf h3 { color: #488; }
+.container-day .row-items .info h3 { color: #888; }
+.container-day .row-items .lab h3 { color: #488; }
+.container-day .row-items img.icon { height: 4.5rem; margin-right: 10px; }
+.container-day .row-items .links { font-family: Arial, sans-serif; font-size: 80%; white-space: nowrap; display: inline-block; }
+
+.container-day .row-items ul { padding-left: 15px; }
+.container-day .row-items ul li { display: block; }
+.container-day .row-items ul li:before { content: "\e250"; font-family: "Glyphicons Halflings"; font-size: 1rem; float: left; margin-top: 0.4rem; margin-left: -15px; color: #aaa; }
+.container-day .row-items ul li.important:before { content: "\e101"; color: #a00; }
+
+a.icon { white-space: nowrap; }
+a.icon:before { content: ""; background-size: 15px 15px; display: inline-block; width: 15px; height: 15px; vertical-align: middle; margin-bottom: 3px; margin-right: 3px; }
+a.nav-icon:before { background-size: 20px 20px; width: 20px; height: 20px; margin-top: -3px; margin-right: 5px; }
+
+a.icon-home:before { background-image: url(../images/icons/home.png); }
+a.icon-schedule:before { background-image: url(../images/icons/schedule.png); }
+a.icon-calendar:before { background-image: url(../images/icons/calendar.png); }
+a.icon-download:before { background-image: url(../images/icons/download.png); }
+a.icon-link:before { background-image: url(../images/icons/link.png); }
+a.icon-video:before { background-image: url(../images/icons/video.png); }
