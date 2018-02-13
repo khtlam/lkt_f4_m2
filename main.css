@@ -7,7 +7,7 @@
 body { position: relative; background-color: #ddd; font-family: Exo, Arial, sans-serif; }
 
 .navbar-brand h1 { color: #000; font-size: inherit; font-weight: bold; margin: 0; }
-.navbar-week { font-size: 80%; height: 40px; }
+.navbar-week { font-size: 80%; height: 30px; }
 .navbar-week li a { line-height: 10px; padding: 10px; }
 .navbar-week .navbar-text { margin: 10px; margin-left: 0; line-height: 10px; }
 .navbar li { font-family: Arial, sans-serif; }
