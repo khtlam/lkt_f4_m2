@@ -13,7 +13,7 @@ body { position: relative; background-color: #ddd; font-family: Exo, Arial, sans
 .navbar li { font-family: Arial, sans-serif; }
 
 .container-day { padding-top: 10px; }
-.container-day:first-of-type { padding-top: 80px; }
+.container-day:first-of-type { padding-top: 90px; }
 @media (max-width: 767px) {
     .container-day:first-of-type { padding-top: 50px; }
 }
