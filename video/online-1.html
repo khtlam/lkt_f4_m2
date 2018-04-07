@@ -1,0 +1,268 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">	
+    <title>Lab 2 Basic Java I/O and Arithmetic Operations</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<link rel="icon" href="img/cse_icon.png">
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll">	
+
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav"  data-toggle="collapse" data-target=".in">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+		    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+		    <li>
+                        <a class="page-scroll" href="#objectives">Objectives</a>
+                    </li>					
+					<li>
+                        <a class="page-scroll" href="#part1">Part 1: Basic Java Input / Output</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#part2">Part 2: Basic Arithmetic Operations</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#exercises">Exercises</a>
+                    </li>					
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+		
+    <section class="eclipse-section">		
+        <div class="container">
+            <div class="row">
+				<div class="col-lg-12 titleheader">
+				<br/>
+					<h3>COMP1022P<br/>
+					Introduction to Computing with Java
+					<br/><br/>
+					Lab 2: Basic Java I/O and Arithmetic Operations</h3>
+				</div>
+				<p id="objectives"></p>
+                <div class="col-lg-12">
+					<div class="banner">
+						<h3 style="margin-top:50px">Objectives</h3>
+						<ul>
+							<li>To retrieve data input from user using the 
+Scanner class, then store it using variable.</li>
+							<li>To display information to the user using 
+System.out.print or System.out.println.</li>
+							<li>To understand basic arithmetic operations.</li>
+						</ul>
+					</div>
+                </div>				
+            </div>
+        </div>
+    </section>
+	
+	<p id="part1"></p>
+	
+	<section class="eclipse-section">	
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">					
+					<div class="banner">
+						<h3 style="margin-top:20px">Part 1 - Basic Java Input / Output</h3>
+						<ol>
+							<li>Scanner is used to gather user's input from 
+various input devices such as keyboard.</li><br/>
+							<li>To use Scanner in your program, you have to 
+import the class and create an object, just like the example below:</li><br/>
+							<p><img src="image/image1.png" 
+style="width:500px"></img></p><br/>
+							<li>You can now input an integer in the console 
+window, and get the result, just like the example below:</li><br/>
+							<p><img src="image/image2.png" 
+style="width:400px"></img></p><br/>
+							<li>To output data on the screen, we use 
+System.out.print() or System.out.println().</li><br/>
+							<li>The cursor will stay at the end of the printed 
+String if we use System.out.print(). On the other hands, it will move to the next line if we use 
+System.out.println().</li><br/>
+							<li>The example below shows several different 
+outputs:</li><br/>
+							<p><img 
+src="image/image3.png" 
+style="width:400px"></img></p><br/>
+							<li>The result looks like this:</li><br/>
+							<p><img src="image/image4.png" 
+style="width:400px"></img></p><br/>
+						</ol>
+					</div>                 
+                </div>				
+            </div>
+        </div>
+    </section>
+	
+	<p id="part2"></p>
+	
+	<section class="eclipse-section">		
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+					<div class="banner">
+						<h3 style="margin-top:20px">Part 2 - Basic Arithmetic Operations</h3>
+						<ol>
+							<li>Five basic arithemetic operations performed with 
+different operators.</li>
+							<p></p>
+							<ul><li>Addition (operator is '+')<br/>e.g., <code>a 
+= a 
++ 
+1</code>, where a is a variable of numeric type.</li>
+							<li>Substraction (operator is '-')<br/>e.g., <code>a 
+= a 
+- 
+1</code>, where a is a variable of numeric type.</li>
+							<li>Multiplication (operator is '*')<br/>e.g., 
+<code>a = 
+a * 
+1</code>, where a is a variable of numeric type.</li>
+							<li>Division (operator is '/')<br/>e.g., <code>a = a 
+/ 
+1</code>, where a is a variable of numeric type.</li>
+							<li>Remainder (operator is '%')<br/>e.g., <code>a = a 
+% 
+1</code>, where a is a variable of numeric type.</li></ul>
+							<p></p>
+							<li>Here is a simple program using the five basic 
+operations:</li><br/>
+							<p><img src="image/image5.png" 
+style="width:500px"></img></p><br/>
+							<li>The result looks like this:</li><br/>
+							<p><img src="image/image6.png" 
+style="width:400px"></img></p><br/>
+						</ol>
+					</div>                 
+                </div>				
+            </div>
+        </div>
+    </section>
+	
+	<p id="exercises"></p>
+	
+	<section class="eclipse-section">		
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+					<div class="banner">
+						<h3 style="margin-top:20px">Exercies</h3>
+						<br/><br/>
+						<b>Exercise 1</b><br/><br/>
+						<ul>
+							<li>Write a Java program Square.java that retrieves the 
+length 
+of a square from the user, computes the circumference (4 * length) and the area (length * 
+length) of the square, and writes the results on screen. </li><br/>
+                                                        <li>The following shows a sample input and output session 
+of the program:</li><br/>	 
+							<p><img src="image/image7.png" style="width:500px"></img></p><br/>
+Note: You must follow closely to the output format as shown above.
+						</ul>
+<br/>
+						<b>Exercise 2</b><br/><br/>
+						<ul>
+							<li>Write a Java program SeparateDigits.java that retrieves 
+an integer of FIVE digits, and outputs all digits individually on screen. Assume that a tab (\t) should 
+be placed in between every two digits.</li><br/>
+<li>The following shows a sample input and output session of the 
+program:</li><br/>
+							<p><img src="image/image8.png" style="width:500px"></img></p><br/>
+							Note: You must follow closely to the output format as shown 
+above, and you may assume the user enters correct number of digits.</li><br/>
+						</ul>
+<br/>
+<b>Demonstration</b><br/><br/>
+<ul>
+							<li>After you 
+finish both exercises, demonstrate your works to the TAs to get 
+points!</li>
+							<li>Remember to 
+save 
+your works to your personal storage such as USB, Google drive, email, etc. Leaving the files on the desktop is NOT safe!
+</li>
+</ul>
+<br/>
+
+						<b>Grading Scheme</b><br/><br/>
+						You may earn 2 marks for 
+this lab:
+						<ul>
+							<li>Attendance (1 mark)</li>
+							<li>Demonstrate your solution to a TA / lab helper (1 mark)</li>
+						</ul>
+					</div>                 
+                </div>				
+            </div>
+        </div>
+		<h6 style="text-align:center; margin-top:100px">Lab page 
+maintained by <a href="mailto:hhuangaj@connect.ust.hk">HUANG, 
+Hengguan</a></h6>
+    </section>
+	
+	<footer class="page-footer">
+		<div class="container">
+            <div class="row">				
+				<div class="col-lg-12">
+					Last modified on <script type="text/javascript">document.write(document.lastModified);</script>
+					<br/>
+					Maintained by COMP1022P Teaching Team &copy; 2017 HKUST Computer Science and Engineering
+				</div>
+			</div>
+		</div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+</body>
+
+</html>
