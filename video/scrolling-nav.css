@@ -1,0 +1,106 @@
+/*
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.marginBottom-0 {
+	margin-bottom:0;
+}
+
+.mid h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 2rem;
+	transform: translate(-50%, -50%);
+}
+
+h4 {
+	font-weight: 400;
+	padding-top: 10px;
+}
+
+
+.banner img {	
+	width: 100%;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+	box-shadow: 8px 8px 10px #aaa;
+}
+
+.banner img:hover {	
+	width: 100%;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+	box-shadow: 8px 8px 10px #aaa;
+}
+
+.titleheader {
+	margin: 1em 0 0.5em 0.5em;
+	font-weight: 300;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
+	font-size: 20px;
+	line-height: 40px;
+	color: #000000;
+	border-bottom: 1px solid rgba(53,86,129, 0.3);
+}
+
+.peopleimg {
+    box-shadow: 8px 8px 10px #aaa;
+    display: inline;
+    width: 100%;
+    max-width: 200px;
+}
+
+ol {
+	margin-bottom: 20px;
+}
+
+ul {	
+	%margin-bottom: 20px;
+}
+
+.titleheader {
+	/*margin: 1em 0 0.5em 0.5em;*/
+	margin-top:50px;
+	margin-left:0px;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	/*text-shadow: 0 -1px 1px rgba(0,0,0,0.4);*/
+	font-size: 28px;
+	line-height: 40px;
+	color: #00000;
+	border-bottom: 1px solid rgba(53,86,129, 0.3);
+}
+
+.eclipse-section {    
+    padding-top: 10px;
+    text-align: left;  
+	background: #fff;
+	padding-bottom: 25px;
+}
+
+.page-footer {
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:right;
+	background-color: #eaeaea;
+}
