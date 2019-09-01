@@ -1,0 +1,102 @@
+@media print { 
+    body { margin-top: 0; }
+    a[href]:after { content: none; }
+}
+
+
+h1 { font-size: 1.2rem; font-weight: bold; margin-bottom: 0rem; }
+h2 { font-size: 1.1rem; font-weight: bold; margin-bottom: 0.1rem; }
+h3 { font-size: 1.0rem; font-weight: bold; margin-bottom: 0rem; }
+h4 { font-size: 1.0rem; font-weight: bold; font-style: italic; margin-bottom: 0rem; }
+
+body { position: relative; background-color: #ddd; font-family: Exo, Arial, sans-serif; }
+
+.navbar-brand { color: #000; font-size: 200%; font-weight: bold; margin: 0;}
+
+@media (max-width: 989px) {
+	.nav-link{
+	margin: 5px 5px;
+	}
+	#planner{
+	padding-top: 60px;
+	}
+}
+@media (min-width: 990px) {
+	.nav-zero{
+	height: 60px;
+	}
+	#planner{
+	padding-top: 90px;
+	}
+}
+
+.nav-zero{
+	margin: 0;
+ 	width: 100%;
+}
+
+.nav-two{
+	margin-top: 60px;
+	height: 30px;
+	width: 100%;
+	font-size: 80%;
+}
+
+.navbar-month { height: 30px; margin-top: -10px }
+.navbar-month nav {padding-left: 5px}
+.navbar-month li a { line-height: 10px; padding: 8px;  }
+.navbar-month .navbar-text { line-height: 15px; position:relative;}
+.navbar-chapter { height: 30px; margin-top: -10px }
+.navbar-chapter nav {padding-left: 5px}
+.navbar-chapter li a { line-height: 15px; padding: 10px; }
+.navbar-chapter .navbar-text {line-height: 10px; }
+
+.navbar li { font-family: Arial, sans-serif; margin-top: -18px;  }
+
+.container-week h2 { margin: 10px 0; font-size: 1.3rem; font-weight: bold; line-height: 32px; }
+.container-week .row-items { margin-left: 0; border-left: 4px solid #d84; }
+.container-day:nth-child(odd) .row-items { border-color: #bb8; }
+#introScience .container-week .row-items { border-color: #0abbef; }
+#water .container-week .row-items { border-color: #98cb4f; }
+#livingThings .container-week .row-items { border-color: #f99d34; }
+#cellsReproHeredity .container-week .row-items { border-color: #0abbef; }
+#energy .container-week .row-items { border-color: #a2c73b; }
+#particle .container-week .row-items { border-color: #f99d34; }
+
+.container-week .row-items .box { padding: 10px; background-color: #fff; margin-bottom: 5px; box-shadow: 2px 2px 4px #aaa; }
+.container-week .row-items div.title { margin-bottom: 10px; }
+.container-week .row-items h3 { display: inline; font-family: Quicksand; font-size: 1.3rem; margin: 0; vertical-align: middle; }
+.container-week .row-items h4 { font-family: 'Play', sans-serif; color: #488;}
+.container-week .row-items {font-family: tahoma;}
+
+#introScience .container-week .row-items h3 { color: #0abbef; }
+#water .container-week .row-items h3 { color: #98cb4f; }
+#livingThings .container-week .row-items h3 { color: #f99d34; }
+#cellsReproHeredity .container-week .row-items h3 { color: #0abbef; }
+#energy.container-week .row-items h3 { color: #a2c73b; }
+#particle.container-week .row-items h3 { color: #f99d34; }
+.container-week .row-items .special h3 { color: #488; }
+.container-week .row-items .info h3 { color: #888; }
+
+.container-week .row-items img.icon { height: 4.5rem; margin-right: 10px; }
+.container-week .row-items .links { font-family: Arial, sans-serif; font-size: 80%; white-space: nowrap; display: inline-block; }
+
+.container-week .row-items ul { padding-left: 15px; }
+.container-week .row-items ul li { display: block; }
+.container-week .row-items ul li:before { content: "\e250"; font-family: "Glyphicons Halflings"; font-size: 1rem; float: left; margin-top: 0rem; margin-left: -15px; color: #aaa; }
+.container-week .row-items ul li.important:before { content: "\e101"; color: #a00; }
+
+.calendar { display: block; vertical-align: middle; width: 30px; box-shadow: 2px 2px 4px #aaa; margin-right: 10px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; float: left; }
+.calendar .month { font-size: 60%; line-height: 12px; text-align: center; color: white; background-color:red; }
+.calendar .date { font-size: 100%; line-height: 20px; text-align:center; background-color: white;}
+.daymemo {float: right; font-size: 100%; font-family: 'Abel'; line-height: 20px;}
+
+.chapter .chapter-alert {width:400px; align: center; margin-left: auto; margin-right: auto; }
+.chapter .chapter-alert h2 {font-family: Quicksand; font-size: 1.5rem; color: #ffffff}
+
+/*
+.title {display: none;}
+.activity {display: none;}
+.hr {display: none;}
+*/
+
